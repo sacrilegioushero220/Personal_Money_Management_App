@@ -25,7 +25,7 @@ cd personal_money_management_app
 3. Install all the required dependencies:
 
 ```bash
-flutter pub get
+flutter pub get 
 Dependencies
 This app relies on the following Flutter packages:
 
