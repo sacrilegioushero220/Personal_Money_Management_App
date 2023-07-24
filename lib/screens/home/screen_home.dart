@@ -4,6 +4,7 @@ import 'package:personal_money_management_app/screens/home/widgets/bottom_naviga
 class ScreenHome extends StatelessWidget {
   const ScreenHome({super.key});
 
+  static ValueNotifier<int> selectedIndexNotifier = ValueNotifier<int>(0);
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
