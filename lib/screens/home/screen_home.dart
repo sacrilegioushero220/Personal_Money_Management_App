@@ -13,7 +13,7 @@ class ScreenHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Money Manager"),
+          title: const Center(child: Text("Money Manager")),
         ),
         bottomNavigationBar: const MoneyManagerBottomNavigation(),
         body: SafeArea(
